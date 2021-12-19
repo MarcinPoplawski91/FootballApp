@@ -1,0 +1,8 @@
+.scorers{
+  .list__item:nth-child(1n){
+    background-color: white;
+  }
+  .list__item:nth-child(2n){
+    background-color: #efe9e9;
+  }
+}

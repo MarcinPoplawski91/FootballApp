@@ -1,0 +1,44 @@
+.list__item:nth-of-type(odd) {
+  background-color: #efe9e9;
+  /*background-color: #f3e9e9;*/
+}
+
+.greenPos {
+  color: green;
+}
+
+.bluePos {
+  color: royalblue;
+}
+
+.yellowPos {
+  color: #c5c501;
+}
+
+.redPos {
+  color: red;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 100px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}

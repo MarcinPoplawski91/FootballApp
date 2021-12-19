@@ -1,0 +1,31 @@
+.table {
+  margin-bottom: 20px;
+
+  &__row:nth-of-type(odd) {
+    background-color: #efe9e9;
+  }
+}
+.green{
+  display: inline-block;
+  background-color: green;
+  width: 15px;
+  color: white;
+  margin-right: 3px;
+  border-radius: 2px;
+}
+.black{
+  display: inline-block;
+  background-color: royalblue;
+  width: 15px;
+  color: white;
+  margin-right: 3px;
+  border-radius: 2px;
+}
+.red{
+  display: inline-block;
+  background-color: red;
+  width: 15px;
+  color: white;
+  margin-right: 3px;
+  border-radius: 2px;
+}

@@ -1,0 +1,45 @@
+//li{
+//  background-color: #ddd;
+//  color: royalblue;
+//}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+.menu {
+  flex-grow: 2;
+
+  &__list {
+
+    display: flex;
+    list-style: none;
+  }
+
+  &__element {
+    flex-grow: 1;
+  }
+
+  &__link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 25px;
+    border-bottom: 3px solid #1976d2;
+
+  }
+  .menu__link:hover{
+    color: #F2F211;
+  }
+}
+.selected {
+  border-bottom: 3px solid white;
+}
+section{
+  padding-top: 50px;
+  text-align: center;
+}
